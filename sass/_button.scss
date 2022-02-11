@@ -1,0 +1,37 @@
+@import './variable';
+
+button-large {
+    width: auto;
+    height: auto;
+    padding: 12px 40px;
+    border-radius: 12px;
+    margin-top: 0;
+    cursor: pointer;
+}
+button-small {
+    width: auto;
+    height: auto;
+    padding: 12px 32px;
+    cursor: pointer;
+}
+button-no-border {
+    width: auto;
+    height: auto;
+    border: none;
+    cursor: pointer;
+}
+icon-box{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.search-field {
+    width: 600px;
+    height: auto;
+    padding: 26px 50px;
+    background: $other url("/assets/icon/icon-search-normal.svg") no-repeat 13px center;
+    border: 1px solid $other;
+    border-radius: 16px;
+}

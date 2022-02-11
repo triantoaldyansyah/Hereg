@@ -1,0 +1,54 @@
+@import './variable';
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Poppins, 'sans-serif';
+    font-weight: $xtra-bold;
+    font-style: $standard;
+    margin: 0px;
+    letter-spacing: 2px;
+}
+h1 {
+    font-size: $font-xxl;
+    line-height: $line-xxl;
+    color: $grey-color;
+}
+h2 {
+    font-size: $font-xl;
+    line-height: $line-xl;
+    letter-spacing: -0.2px;
+    color: $grey-color;
+}
+h3 {
+    font-size: $font-l;
+    line-height: $line-l;
+    color: $grey-color;
+}
+h4 {
+    font-size: $font-m;
+    line-height: $line-m;
+    color: $grey-color;
+}
+p {
+    font-family: Poppins, 'sans-serif';
+    font-weight: $normal;
+    font-style: $standard;
+    font-size: $font-s;
+    letter-spacing: 1px;
+    color: $grey;
+}
+p-bold {
+    font-family: Poppins, 'sans-serif';
+    font-weight: $bold;
+    font-style: $standard;
+    font-size: $font-s;
+    letter-spacing: 1px;
+    color: $grey-color;
+}
+p-small {
+    font-family: Poppins, 'sans-serif';
+    font-weight: $normal;
+    font-style: $standard;
+    font-size: $font-xxs;
+    letter-spacing: 1px;
+    color: $grey;
+}
